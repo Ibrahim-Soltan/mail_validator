@@ -8,6 +8,10 @@ packages = [{include = "guc_mail_validator"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+Django = "^4.1.2"
+djangorestframework = "^3.14.0"
+Markdown = "^3.4.1"
+django-filter = "^22.1"
 
 
 [build-system]
